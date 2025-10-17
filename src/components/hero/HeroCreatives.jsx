@@ -6,7 +6,7 @@ import Hero1 from "../../assets/images/hero1.jpg";
 
 const HeroCreatives = () => {
   return (
-    <div>
+    <div className="h-[100%]">
       <img
         className="w-[221px] h-[221px] object-cover rounded-[20px] -rotate-[20deg] absolute top-6 left-[4%] -z-10"
         src={Blue}
@@ -18,12 +18,12 @@ const HeroCreatives = () => {
         alt=""
       />
       <img
-        className="w-[220px] h-[275px] object-cover rounded-[20px] rotate-[15deg] absolute -bottom-[50%] left-[20%] -z-10"
+        className="w-[220px] h-[275px] object-cover rounded-[20px] rotate-[15deg] absolute bottom-[4%] left-[20%] -z-10"
         src={CrystalBlue}
         alt=""
       />
       <img
-        className="w-[221px] h-[221px] object-cover rounded-[20px] -rotate-[13deg] absolute -bottom-[45%] right-[20%] -z-10"
+        className="w-[221px] h-[221px] object-cover rounded-[20px] -rotate-[13deg] absolute bottom-[4%] right-[20%] -z-10"
         src={Hero1}
         alt=""
       />

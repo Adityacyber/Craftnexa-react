@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroContent = () => {
   return (
-    <div className="max-w-[80vw] flex flex-col items-center">
+    <div className="max-w-[80vw] flex flex-col items-center h-svh">
       <h1 className="font-[syne] font-bold text-[8vw] leading-[7.5vw] text-center">
         Creative Digital Agency
       </h1>

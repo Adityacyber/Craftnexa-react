@@ -4,7 +4,7 @@ import HeroCreatives from "../components/hero/HeroCreatives";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-center items-center relative mt-8">
+    <div className="flex flex-col justify-center items-center relative mt-8 h-[100vh]">
       <HeroContent />
       <HeroCreatives />
     </div>
